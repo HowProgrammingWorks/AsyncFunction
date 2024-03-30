@@ -1,5 +1,3 @@
-# AsyncFunction
+# Contract: AsynFunction and async/await
 
-Contract: AsynFunction and async/await
-
-`Object.getPrototypeOf(async () => {})`
+[👉 Оглавление курса Async 2024](https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Async-2024.md)
