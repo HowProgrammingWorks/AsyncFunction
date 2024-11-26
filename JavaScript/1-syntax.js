@@ -3,14 +3,14 @@
 const asyncArrow = async () => {};
 console.log({ asyncArrow });
 
-const asyncExpression = async function() {};
+const asyncExpression = async function () {};
 console.log({ asyncExpression });
 
 async function asyncDeclaration() {}
 console.log({ asyncDeclaration });
 
 const instance = {
-  async asyncMethod() {}
+  async asyncMethod() {},
 };
 console.log({ instance });
 

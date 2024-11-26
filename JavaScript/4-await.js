@@ -1,7 +1,6 @@
 'use strict';
 
-(async () => {
-
+const main = async () => {
   // Async function
 
   const add = async (a, b) => a + b;
@@ -22,5 +21,6 @@
 
   const res3 = await total(2, 3);
   console.log(`await total(2, 3) = ${res3}`);
+};
 
-})();
+main();

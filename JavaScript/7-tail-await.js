@@ -26,7 +26,9 @@ const convert = async (value, currency) => {
   return result;
 };
 
-(async () => {
+const main = async () => {
   const res = await convert(150, 'UAH');
   console.log(res);
-})();
+};
+
+main();
