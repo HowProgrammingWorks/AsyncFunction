@@ -17,4 +17,14 @@ const total = (a, b) => {
   return promise;
 };
 
-console.log({ add, sum, total });
+const calculate = (a, b) => {
+  const { promise, resolve, reject } = Promise.withResolvers();
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    reject(new Error('Function expected to be called with numbers'));
+  } else {
+    resolve(a + b);
+  }
+  return promise;
+};
+
+console.log({ add, sum, total, calculate });
